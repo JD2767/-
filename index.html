@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাংলাদেশ নাগরিক সেবা পোর্টাল</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans Bengali', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 40px 20px;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+        .category h2 {
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .service-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        .service-item h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.2rem;
+        }
+        .service-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .service-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>বাংলাদেশ নাগরিক সেবা পোর্টাল</h1>
+    <p class="subtitle">আপনার প্রয়োজনীয় সকল সরকারি ও অনলাইন সেবা এক ঠিকানায়</p>
+
+    <div class="category">
+        <h2>জাতীয় ও ভূমি সংক্রান্ত সেবা</h2>
+        <ul class="service-list">
+            <li class="service-item">
+                <h3>জাতীয় পরিচয়পত্র (NID)</h3>
+                <p>নতুন NID-র আবেদন, সংশোধন, এবং তথ্য যাচাই।</p>
+                <a href="https://www.nidw.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>পাসপোর্ট সেবা</h3>
+                <p>ই-পাসপোর্টের জন্য অনলাইনে আবেদন এবং আবেদনপত্রের অবস্থা যাচাই।</p>
+                <a href="https://www.epassport.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>জন্ম ও মৃত্যু নিবন্ধন</h3>
+                <p>অনলাইনে জন্ম ও মৃত্যু নিবন্ধনের আবেদন এবং সনদ যাচাই।</p>
+                <a href="http://bdris.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>ভূমি সেবা (ই-নামজারি)</h3>
+                <p>ভূমি উন্নয়ন কর পরিশোধ, ই-নামজারি এবং খতিয়ান পর্চার আবেদন।</p>
+                <a href="https://land.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>শিক্ষা ও স্বাস্থ্য সেবা</h2>
+        <ul class="service-list">
+            <li class="service-item">
+                <h3>শিক্ষা বোর্ডের ফলাফল</h3>
+                <p>বিভিন্ন বোর্ডের পরীক্ষার ফলাফল জানার জন্য।</p>
+                <a href="http://www.educationboardresults.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>স্বাস্থ্য সেবা (সুরক্ষা)</h3>
+                <p>কোভিড-১৯ ভ্যাকসিনের নিবন্ধন এবং স্বাস্থ্য বিষয়ক তথ্য।</p>
+                <a href="https://www.surokkha.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>আইনশৃঙ্খলা ও অন্যান্য জরুরি সেবা</h2>
+        <ul class="service-list">
+            <li class="service-item">
+                <h3>অনলাইনে জিডি (GD)</h3>
+                <p>কোনো মূল্যবান জিনিস হারালে বা জরুরি প্রয়োজনে অনলাইনে জিডি করা।</p>
+                <a href="https://gd.police.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>পুলিশ ক্লিয়ারেন্স সার্টিফিকেট</h3>
+                <p>পাসপোর্ট বা ভিসা আবেদনের জন্য অনলাইনে পুলিশ ক্লিয়ারেন্সের আবেদন।</p>
+                <a href="https://pcc.police.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+            <li class="service-item">
+                <h3>অভিযোগ প্রতিকার ব্যবস্থা (GRS)</h3>
+                <p>সরকারি দপ্তরের কোনো সেবা নিয়ে অভিযোগ বা পরামর্শ জানানোর প্ল্যাটফর্ম।</p>
+                <a href="https://grs.gov.bd/" target="_blank">সেবার জন্য ক্লিক করুন</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
